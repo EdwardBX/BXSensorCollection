@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.i18n.encoding" value="utf-8" />
+	<package name = "/*" namespace="/" extends = "json-default">
+	
+		<action name = "loginAction" class = "com.sensor.action.LoginAction">
+			<result name = "input" >Login.jsp</result>
+			<result name = "success">123.jsp</result>
+		</action>
+		
+		<action name = "inittemperatureAction" class = "com.sensor.action.inittemperatureAction" method="obtainData">
+			<!-- <result type="json" name="success"><param name="root">jsonMap</param></result> -->
+		</action>
+		<action name = "initdayAction" class = "com.sensor.action.initdayAction" method="obtainData">
+		</action>
+<!-- 		<action name = "initsellproAction" class = "com.guo.action.initsellproAction">
+			<result name = "success">/pro/sell-pro.jsp</result>
+		</action>	
+		<action name = "sellproAction" class = "com.guo.action.sellproAction">
+			<result name = "success">/pro/sell-pro-success.jsp</result>
+			<result name="input">/pro/sell-pro.jsp</result>
+		</action>
+		<action name = "initinstockAction" class = "com.guo.action.initinstockAction">
+			<result name = "success">/pro/in-stock.jsp</result>
+		</action>	
+		<action name = "instockAction" class = "com.guo.action.instockAction">
+			<result name = "success">/pro/in-stock-success.jsp</result>
+			<result name="input">/pro/in-stock.jsp</result>
+		</action>
+		<action name = "addnewproAction" class = "com.guo.action.addnewproAction">
+			<result name = "success">/pro/add-pro-success.jsp</result>
+			<result name="input">/pro/add-new-stock.jsp</result>
+		</action>
+		<action name = "allstockAction" class = "com.guo.action.AllStockAction">
+			<result name = "success">/pro/stock-info.jsp</result>
+		</action> -->
+		
+		
+	</package>
+</struts>    

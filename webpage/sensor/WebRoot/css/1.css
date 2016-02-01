@@ -1,0 +1,463 @@
+@charset "utf-8"; 
+/* DIVCSS5-CSS初始化模板-www.divcss5.com */ 
+body, div, ul, li{margin:0; padding:0;font-style: normal;font:12px/22px "\5B8B\4F53",Arial, Helvetica, sans-serif} 
+/* \5B8B\4F53 代表 宋体，更多中文字体转 Unicode http://www.divcss5.com/jiqiao/j325.shtml */ 
+ol, ul ,li{list-style:none} 
+img {border: 0; vertical-align:middle} 
+body{color:#000000;background:#FFF; text-align:center} 
+.clear{clear:both;height:1px;width:100%; overflow:hidden; margin-top:-1px} 
+a{color:#000000;text-decoration:none}  
+a:hover{color:#BA2636} 
+ 
+.red ,.red a{ color:#F00} 
+.lan ,.lan a{ color:#1E51A2} 
+.pd5{ padding-top:5px} 
+.dis{display:block} 
+.undis{display:none} 
+/*
+ul#nav123{ width:30%; height:60px; background:#7AC5CD;margin:0 auto}
+ul#nav123 li{display:inline; height:60px} 
+ul#nav123 li a{display:inline-block; padding:0 20px; height:60px; line-height:60px; 
+color:#D1E1F4; font-family:"方正姚体"; font-size:20px} 
+ul#nav123 li a:hover{background:#0095BB}
+*/
+
+
+#navbody { width:100%; height:60px; background:#00868B;margin:0 auto}
+#navbody li{display:inline; height:60px; position: relative;padding: 0px 30px;z-index: 9999;} 
+#navbody li a{display:inline-block; padding:0 20px; height:60px; line-height:60px; z-index: 999;
+color:#D1E1F4; font-family:"方正姚体"; font-size:20px; z-index: 999;} 
+#navbody li a:hover{background:#0095BB}
+/* #navbody {
+	margin: 0px auto; padding: 0px; width: 100%; height: 60px; background:#00868B;
+}
+#navbody li {
+	padding: 0px 30px; height: 60px; float: left;  position: relative; z-index: 9999;
+}
+#navbody li a {
+	text-align: center; color: #D1E1F4; line-height: 60px; font-weight: 900; text-decoration: none; display: block; z-index: 999;
+} */
+
+
+#navbody ul {
+	list-style: none; margin: 0px; padding: 0px; border-radius: 4px; left: 0px; top: 30px; display: none; position: absolute; background-color: #00868B;
+}
+#navbody ul li {
+	padding: 0px 10px; width: 120px;  color: white; float: left;
+}
+#navbody ul li:hover {
+	background: #0095BB; border-radius: 0px; color: #0095BB;
+}
+#navbody ul li a {
+	height: 60px; color: white; line-height: 50px; font-size: 18px; 
+}
+#navbody ul li a:hover {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+
+/* html {
+	list-style: none; margin: 0px; padding: 0px;
+}
+body {
+	list-style: none; margin: 0px; padding: 0px;
+}
+section {
+	list-style: none; margin: 0px; padding: 0px;
+}
+div {
+	list-style: none; margin: 0px; padding: 0px;
+}
+p {
+	list-style: none; margin: 0px; padding: 0px;
+}
+h1 {
+	list-style: none; margin: 0px; padding: 0px;
+}
+form {
+	list-style: none; margin: 0px; padding: 0px;
+}
+input {
+	list-style: none; margin: 0px; padding: 0px;
+}
+textarea {
+	list-style: none; margin: 0px; padding: 0px;
+}
+label {
+	list-style: none; margin: 0px; padding: 0px;
+}
+ol {
+	list-style: none; margin: 0px; padding: 0px;
+}
+ul {
+	list-style: none; margin: 0px; padding: 0px;
+}
+li {
+	list-style: none; margin: 0px; padding: 0px;
+}
+h1 {
+	list-style: none; margin: 0px; padding: 0px;
+}
+h2 {
+	list-style: none; margin: 0px; padding: 0px;
+}
+h3 {
+	list-style: none; margin: 0px; padding: 0px;
+}
+img {
+	outline: 0px; border: 0px currentColor; border-image: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	
+}
+body {
+	background: rgb(251, 251, 249); margin: 0px; padding: 0px; font-family: "微软雅黑",serif;
+}
+#header {
+	background: url("../images/headerback.png"); width: 100%; height: 85px; float: left;
+}
+.head {
+	margin: 0px auto; width: 980px; position: relative;
+}
+.cslogo {
+	left: 0px; top: 10px; width: 434px; height: 65px; position: absolute; background-image: url("../images/cslogo.png");
+}
+input {
+	padding: 4px 10px; outline: 0px; border-radius: 4px; border: 2px solid rgb(233, 230, 223); border-image: none; top: 27px; width: 130px; height: 22px; color: rgb(63, 60, 48); line-height: 30px; font-size: 12px; position: absolute; background-color: rgb(242, 241, 235);
+}
+input[name='userid'] {
+	right: 230px;
+}
+input[name='userpwd'] {
+	right: 50px;
+}
+input:focus {
+	background: rgb(255, 255, 255);
+}
+button[name='submit'] {
+	padding: 0px; outline: 0px; border: 0px currentColor; border-image: none; top: 30px; width: 30px; height: 30px; right: 0px; position: absolute; background-image: url("../images/loginbutton.png");
+}
+button[name='submit']:hover {
+	background-image: url("../images/loginbutton3.png");
+}
+button[name='submit']:active {
+	background-image: url("../images/loginbutton2.png");
+} */
+/* #nav {
+	background: rgb(242, 241, 235); padding: 5px 0px; width: 100%; height: 30px; float: left;
+} */
+/* .navbody {
+	margin: 0px auto; padding: 0px; width: 980px; height: 30px;
+} */
+/* #main {
+	width: 980px; margin-right: auto; margin-left: auto;
+}
+.container {
+	padding: 0px; width: 980px; margin-right: auto; margin-bottom: 40px; margin-left: auto; float: left;
+}
+#banner {
+	background: rgb(242, 241, 235); width: 100%; height: 380px; margin-bottom: 50px; float: left;
+}
+.titleList {
+	width: 100%; height: 30px; text-align: left; color: rgb(140, 21, 21); line-height: 30px; font-size: 16px; font-weight: bold; margin-bottom: 10px; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.notice {
+	background: url("../images/micro-icons.png") no-repeat; width: 30px; height: 30px; overflow: hidden; float: left; z-index: 999;
+}
+.news {
+	background: url("../images/micro-icons.png") no-repeat; width: 30px; height: 30px; overflow: hidden; float: left; z-index: 999;
+}
+.jxjw {
+	background: url("../images/micro-icons.png") no-repeat; width: 30px; height: 30px; overflow: hidden; float: left; z-index: 999;
+}
+.kyxx {
+	background: url("../images/micro-icons.png") no-repeat; width: 30px; height: 30px; overflow: hidden; float: left; z-index: 999;
+}
+.djgz {
+	background: url("../images/micro-icons.png") no-repeat; width: 30px; height: 30px; overflow: hidden; float: left; z-index: 999;
+}
+.xgdt {
+	background: url("../images/micro-icons.png") no-repeat; width: 30px; height: 30px; overflow: hidden; float: left; z-index: 999;
+}
+.hotdownload {
+	background: url("../images/micro-icons.png") no-repeat; width: 30px; height: 30px; overflow: hidden; float: left; z-index: 999;
+}
+.theelse {
+	background: url("../images/micro-icons.png") no-repeat; width: 30px; height: 30px; overflow: hidden; float: left; z-index: 999;
+}
+.notice {
+	background-position: -150px -696px;
+}
+.news {
+	background-position: -100px -135px;
+}
+.jxjw {
+	background-position: -100px -1088px;
+}
+.xgdt {
+	background-position: -205px -360px;
+}
+.kyxx {
+	background-position: -458px -977px;
+}
+.djgz {
+	background-position: -152px -192px;
+}
+.hotdownload {
+	background-position: -150px -470px;
+}
+.theelse {
+	background-position: -50px -752px;
+}
+#notice {
+	width: 465px; height: 220px; float: left;
+}
+#news {
+	width: 465px; height: 220px; float: left;
+}
+#notice a {
+	color: rgb(0, 0, 0); line-height: 22px; text-decoration: none; float: left;
+}
+#news a {
+	color: rgb(0, 0, 0); line-height: 22px; text-decoration: none; float: left;
+}
+#notice a:hover {
+	color: rgb(140, 21, 21);
+}
+#news a:hover {
+	color: rgb(140, 21, 21);
+}
+.clearfix::after {
+	height: 0px; clear: both; display: block; visibility: hidden; content: ".";
+}
+.clearfix {
+	
+}
+.articleList {
+	width: 100%; height: 22px; text-align: left; line-height: 22px; overflow: hidden; font-size: 14px; float: left; display: block;
+}
+.articleList img {
+	width: 13px; height: 22px; overflow: hidden; margin-right: 5px; float: left;
+}
+.articleList span {
+	text-align: left; float: right;
+}
+.articleList span img {
+	width: 26px; height: 7px; margin-top: 8px; float: left;
+}
+#notice {
+	margin-right: 50px;
+}
+#divLeft {
+	width: 740px; float: left;
+}
+#jxjw {
+	width: 325px; height: 400px; float: left;
+}
+#xgdt {
+	width: 325px; height: 400px; float: left;
+}
+#kyxx {
+	width: 325px; height: 400px; float: left;
+}
+#djgz {
+	width: 325px; height: 400px; float: left;
+}
+#jxjw {
+	margin-right: 50px;
+}
+#kyxx {
+	margin-right: 50px;
+}
+#divLeft a {
+	color: rgb(0, 0, 0); text-decoration: none; float: left;
+}
+#divLeft a:hover {
+	color: rgb(140, 21, 21);
+}
+#kyxx {
+	margin-top: 50px;
+}
+#djgz {
+	margin-top: 50px;
+}
+.photoBox {
+	background: rgb(242, 241, 235); width: 325px; height: 230px; overflow: hidden; margin-bottom: 10px; float: left;
+}
+.photoBox .photobody {
+	width: 325px; height: 200px; overflow: hidden; float: left;
+}
+.photoBox .photobody img {
+	width: 325px; text-align: center; float: left; min-height: 200px;
+}
+.photoBox span {
+	padding: 5px; width: 315px; height: 20px; text-align: center; font-size: 12px; float: left;
+}
+#sideRight {
+	width: 240px; float: right;
+}
+.titleList2 {
+	width: 100%; height: 30px; text-align: left; color: rgb(63, 60, 48); line-height: 30px; font-size: 16px; font-weight: bold; margin-bottom: 10px;
+}
+#hotDownload {
+	width: 100%; padding-bottom: 20px; float: left;
+}
+#others {
+	width: 100%; padding-bottom: 20px; float: left;
+}
+#hotDownload a {
+	text-decoration: none;
+}
+#hotDownload ul li {
+	list-style: none;
+}
+#hotDownload li {
+	padding: 4%; width: 92%; float: left;
+}
+#hotDownload li:hover {
+	background: rgb(242, 241, 235); transition:0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;
+}
+#hotDownload .icon {
+	width: 35px; height: 35px; float: left;
+}
+#hotDownload .icon img {
+	width: 100%; height: 100%;
+}
+#hotDownload .txt {
+	width: 180px; height: 50px; float: right;
+}
+#hotDownload h3 {
+	height: 1.2em; color: rgb(11, 41, 0); line-height: 1.2em; overflow: hidden; font-size: 0.9em; font-weight: bold;
+}
+#hotDownload .info {
+	color: rgb(117, 117, 117); line-height: 2em; font-size: 0.7em;
+}
+#others a {
+	margin: 10px; width: 196px; height: 40px; text-decoration: none; float: left;
+}
+#zxtg:hover {
+	transition:0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;
+}
+#xzzx:hover {
+	transition:0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;
+}
+#ldyx:hover {
+	transition:0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;
+}
+#zxtg {
+	background-image: url("../images/zxtg1.png");
+}
+#zxtg:hover {
+	background-image: url("../images/zxtg2.png");
+}
+#xzzx {
+	background-image: url("../images/xzzx1.png");
+}
+#xzzx:hover {
+	background-image: url("../images/xzzx2.png");
+}
+#ldyx {
+	background-image: url("../images/ldyx1.png");
+}
+#ldyx:hover {
+	background-image: url("../images/ldyx2.png");
+}
+#footer {
+	width: 100%; height: auto; color: rgb(255, 255, 255); margin-top: 20px; float: left;
+}
+.footertop {
+	background: url("../images/footertop.png") center; margin: 0px auto; padding: 0px; width: 100%; height: 62px;
+}
+.footercenter {
+	background: rgb(140, 21, 21); width: 100%; height: auto;
+}
+.footercenter .footercenterbody {
+	margin: 0px auto; padding: 50px 0px; width: 980px; overflow: hidden;
+}
+.footercenterbody h4 {
+	display: block;
+}
+.footercenterbody div {
+	text-align: left; line-height: 22px; padding-right: 25px; float: left; min-width: 150px;
+}
+.footercenterbody div span {
+	line-height: 30px; font-size: 14px; font-weight: bold;
+}
+.footercenterbody div a {
+	text-align: left; color: rgb(255, 255, 255); font-size: 12px; text-decoration: none; display: block;
+}
+.footercenterbody div a:hover {
+	text-decoration: underline;
+}
+.contact {
+	line-height: 35px; display: block;
+}
+.contact img {
+	width: 28px; height: 28px; padding-right: 10px; float: left;
+}
+.contact span {
+	font-size: 12px; font-weight: normal; text-decoration: none;
+}
+.contact span:hover {
+	text-decoration: none;
+}
+.footerbottom {
+	background: url("../images/footerbottom.png"); margin: 0px auto; width: 100%; height: 26px;
+}
+#copyright {
+	text-align: center; color: rgb(255, 255, 255); line-height: 26px; font-size: 12px;
+}
+ */
+#slideshow {
+	background: rgb(242, 241, 235); margin: 0px auto; width: 980px; height: 380px; position: relative;
+}
+#slideshow #slidesContainer {
+	margin: 0px auto; width: 920px; height: 380px; overflow: auto; position: relative;
+}
+#slideshow #slidesContainer .slide {
+	margin: 0px auto; width: 540px; height: 380px;
+}
+.control {
+	width: 72px; height: 72px; text-indent: -10000px; display: block; position: absolute; cursor: pointer;
+}
+#leftControl {
+	background: url("../images/ico_sliding_910.png") no-repeat; top: 150px; width: 72px; height: 72px; overflow: hidden; z-index: 999;
+}
+#rightControl {
+	background: url("../images/ico_sliding_910.png") no-repeat; top: 150px; width: 72px; height: 72px; overflow: hidden; z-index: 999;
+}
+#leftControl {
+	background-position: 0px -144px; left: -100px;
+}
+#rightControl {
+	background-position: 0px -216px; right: -100px;
+}
+#slideshow a {
+	font: bold 11px/normal Verdana, Geneva, sans-serif; color: rgb(0, 0, 0); text-decoration: none; font-size-adjust: none; font-stretch: normal;
+}
+#slideshow a:hover {
+	text-decoration: underline;
+}
+.slide .txt-wrapper h2 {
+	margin: 15px;
+}
+.slide .txt-wrapper p {
+	margin: 15px;
+}
+.slide .txt-wrapper h2 {
+	color: rgb(60, 63, 65); letter-spacing: -1px; font-size: 20px;
+}
+.slide .txt-wrapper p {
+	text-indent: 20px; font-size: 14px;
+}
+.slide .txt-wrapper {
+	padding: 30px 20px 0px 0px; width: 400px; height: 320px; overflow: hidden; float: left;
+}
+.slide .img-wrapper {
+	width: 500px; height: 320px; overflow: hidden; padding-top: 30px; float: right;
+}
+.slide .img-wrapper img {
+	width: 500px; height: auto;
+}
