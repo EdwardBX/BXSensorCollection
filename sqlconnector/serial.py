@@ -90,6 +90,7 @@ while line:
         dust = ''
         temp = ''
         humi = ''
+        light = ''
     line = ser.readline()
     cur = conn.cursor()
 cur.close()
