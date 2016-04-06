@@ -9,7 +9,7 @@
 使用 Python 编写的脚本，读取串口数据并存入 MySQL 数据库。
 
 ####Webpage
-使用 Java Servlet 构建的实时数据显示网站。
+使用 Struts 框架构建的实时数据显示网站。
 
 ####Gas & Tem & Light
 驱动各个终端节点传感器的 Arduino Sketch 文件。
@@ -17,5 +17,5 @@
 
 * 温湿度传感器 DHT22
 * 光照传感器 BH1750
-* 颗粒物传感器 
+* 颗粒物传感器 Sharp GP2Y1010  
 * To be Continue...
